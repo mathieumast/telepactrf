@@ -1,0 +1,30 @@
+{
+    "name": "telepactrf",
+    "version": "1.0.0",
+    "description": "Transform telepac geojson.",
+    "keywords": [
+        "telepac",
+        "geojson"
+    ],
+    "homepage": "http://github.com/mathieumast/telepactrf",
+    "author": "mathieumast",
+    "contributors": [
+        "mathieumast"
+    ],
+    "main": "dist/node/telepactrf.js",
+    "scripts": {
+        "test": "mocha --recursive",
+        "build:node": "rm -f dist/node/telepactrf.js && cp src/telepactrf.js dist/node/telepactrf.js",
+        "build:browser": "rm -f dist/browser/telepactrf.js && browserify src/telepactrf.js -s telepactrf -t > dist/browser/telepactrf.js",
+        "build": "npm run test && npm run build:node && npm run build:browser"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mathieumast/telepactrf.git"
+    },
+    "devDependencies": {
+        "browserify": "^16.2.2",
+        "mocha": "^5.2.0"
+    },
+    "license": "MIT"
+}
