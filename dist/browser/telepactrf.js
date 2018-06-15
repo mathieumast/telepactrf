@@ -14,7 +14,7 @@ var addRuleType = 'add';
 var removeRuleType = 'remove';
 
 // La valeur de la propriété est à mofifier
-var valueRuleType = 'value';
+var updateRuleType = 'update';
 
 // La propriété est à renomer
 var renameRuleType = 'rename';
@@ -103,8 +103,8 @@ telepactrfTransformer.prototype.transformProperties = function (properties) {
           console.error('rule "' + rule.type + '"is not correctly defined', rule);
         }
       }
-      // traitement de la règle de transformation "value"
-      else if (rule.type === valueRuleType) {
+      // traitement de la règle de transformation "update"
+      else if (rule.type === updateRuleType) {
         if (properties[rule.property] !== undefined) {
           properties[rule.property] = rule.value;
         } else {

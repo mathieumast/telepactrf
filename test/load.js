@@ -59,7 +59,7 @@ describe('Load', function () {
         "property": "MAEC_PRV"
       },
       {
-        "type": "value",
+        "type": "update",
         "property": "NUMERO_PA",
         "value": "0"
       },
