@@ -1,0 +1,111 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              492650.38,
+              6917249.59
+            ],
+            [
+              492669.7835,
+              6917256.1536
+            ],
+            [
+              492651.8168,
+              6917246.8914
+            ],
+            [
+              492650.38,
+              6917249.59
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "CAMPAGNE": "2018",
+        "PACAGE": "014022646",
+        "NUMERO_I": "1",
+        "NUMERO_P": "1",
+        "SURF_TOT": "9.75",
+        "DPT_NUM": "014",
+        "COMMUNE": "14131",
+        "SURF": "9.75",
+        "TYPE": "PPH",
+        "CODE_VAR": "",
+        "NUMERO_PA": "",
+        "INTERRANG1": "",
+        "INTERRANG2": "",
+        "INTERRANG3": "",
+        "RECONV_PP": "0",
+        "RETOUR_PP": "0",
+        "PROD_SEM": "0",
+        "DEST_ICHN": "",
+        "DEROB1": "",
+        "DEROB2": "",
+        "AGRIBIO": "0",
+        "MARAICH": "0",
+        "CIBLE_SHP": "0",
+        "MAEC_PRV": "",
+        "AGROFOREST": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              493457.35,
+              6918307.3451
+            ],
+            [
+              493463.9281,
+              6918292.5926
+            ],
+            [
+              493441.4611,
+              6918342.9684
+            ],
+            [
+              493457.35,
+              6918307.3451
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "CAMPAGNE": "2018",
+        "PACAGE": "014022646",
+        "NUMERO_I": "2",
+        "NUMERO_P": "1",
+        "SURF_TOT": "52.48",
+        "DPT_NUM": "014",
+        "COMMUNE": "14238",
+        "SURF": "3.03",
+        "TYPE": "ORP",
+        "CODE_VAR": "",
+        "NUMERO_PA": "",
+        "INTERRANG1": "",
+        "INTERRANG2": "",
+        "INTERRANG3": "",
+        "RECONV_PP": "0",
+        "RETOUR_PP": "0",
+        "PROD_SEM": "0",
+        "DEST_ICHN": "A",
+        "DEROB1": "",
+        "DEROB2": "",
+        "AGRIBIO": "0",
+        "MARAICH": "0",
+        "CIBLE_SHP": "0",
+        "MAEC_PRV": "",
+        "AGROFOREST": ""
+      }
+    }
+  ]
+}
